@@ -1,15 +1,21 @@
-Pc = 20.64e6               # chamber pressure (Pa)
+# Vehicle
 
-Tc = 3027               # chamber temperature (K)
+dry_mass = 10000            # Kg
 
-gamma  = 1.22           # specific heat ratio
+initial_mass = 50000        # Kg
 
-R = 355                 # specific gas constant (J/kg/K)    
+burn_time = 135             # s
 
-At = 0.04               # throat area (m^2)
+thrust = 900000             # N
 
-Ae = 69 * At            # exit area (m^2)
+isp = 310                   # s
 
-Pa = 101325           # ambient pressure (Pa) switched betweem atmosphere and space to optimize conditions
+Cd = 0.35
 
+diameter = 2.5              # m 
 
+g = 9.81                    # m/s^2 
+
+rho = 1.225                 # kg/m^3
+
+dt = 0.1                    # seconds
