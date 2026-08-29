@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt                 # importing the plot generator
 import numpy as np
 
 from data import Pc, Tc, gamma, R, At, Pa       # importing data and equations to solve 
-from nozzel import area_ratio, exit_temperature, exit_pressure, exit_velocity
+from nozzle import area_ratio, exit_temperature, exit_pressure, exit_velocity
 from mnum import exit_mach
 from engine import mass_flow_rate, thrust, isp
 

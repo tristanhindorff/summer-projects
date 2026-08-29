@@ -1,5 +1,5 @@
 from scipy.optimize import fsolve               # importing equation solver
-from nozzel import area_ratio                   # importing equations and data
+from nozzle import area_ratio                   # importing equations and data
 from data import At, gamma, Ae
 
 eps = area_ratio(Ae, At)                        # calculating the expansion ratio

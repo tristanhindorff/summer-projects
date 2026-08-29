@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt                             # importing plotting
 import numpy as np
 
 from data import Pc, Tc, gamma, R, At, Ae, Pa               # importing data and equations 
-from nozzel import area_ratio, exit_temperature, exit_pressure, exit_velocity
+from nozzle import area_ratio, exit_temperature, exit_pressure, exit_velocity
 from mnum import exit_mach
 from engine import mass_flow_rate, thrust, isp
 
