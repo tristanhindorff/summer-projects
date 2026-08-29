@@ -1,15 +1,21 @@
-Pc = 20.64e6               # chamber pressure (Pa)
+To = 288.15             #K
 
-Tc = 3027               # chamber temperature (K)
+L = 0.0065              #K/m
 
-gamma  = 1.22           # specific heat ratio
+g = 9.81                #m/s^2
 
-R = 355                 # specific gas constant (J/kg/K)    
+R = 287.05              #J/kgK
 
-At = 0.04               # throat area (m^2)
+Po = 101325             #Pa
 
-Ae = 69 * At            # exit area (m^2)
+lamda = 1.4             # ratio of specific heats for air
 
-Pa = 101325           # ambient pressure (Pa) switched betweem atmosphere and space to optimize conditions
+gamma = 1.4             # ratio of specific heats for air
 
+G = 6.67430e-11         # Gravitational constant (m^3/kg/s^2)
 
+M_earth = 5.972e24       # Mass of Earth (kg)   
+
+R_earth = 6.371e6        # Radius of Earth (m)  
+
+mu = G * M_earth        # standard gravational parameter
